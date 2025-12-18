@@ -10,3 +10,12 @@ def root():
 @app.get("/test")
 def root():
     return {"message": "test is running"}
+
+
+@app.get("/hello")
+def root():
+    return {"message": "hello is running"}
+
+
+
+
